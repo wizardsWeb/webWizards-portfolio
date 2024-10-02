@@ -1,0 +1,79 @@
+to get any prebbuild 3D model you can go to the site
+
+    https://sketchfab.com/feed
+
+than to convert any 3D model to jsx component
+
+    https://gltf.pmnd.rs/
+
+when we convert the downloaded glb file to the jsx compoenent using the above site
+we can use it in our code
+
+    create a seperate component and paste the code
+
+    make changes in the pasted code from the function to a proper component
+
+import some packages that will be need to the run the model
+
+    import { useFrame, useThree } from '@react-three/fiber';
+    import { useGLTF } from '@react-three/drei';
+
+to apply animations on the 3D models
+
+    import { a } from '@react-spring/three'
+
+to render the component we have to make changes in the vite.config
+
+    import { defineConfig } from 'vite'
+    import react from '@vitejs/plugin-react'
+
+    // https://vitejs.dev/config/
+    export default defineConfig({
+    plugins: [react()],
+    assetsInclude: ['**/*.glb']
+    })
+
+could not load the island
+
+    import islandScene from '../assets/3d/island.glb'
+    
+    const { nodes, materials } = useGLTF(islandScene);
+
+
+To include sky as a model
+create a seperate component for it 
+since it is static and primitive like no drag or nothing
+
+    import skyScene from '../assets/3d/sky.glb'
+
+    const sky = useGLTF(skyScene)
+
+    <mesh>
+      <primitive object={sky.scene} />
+    </mesh> 
+
+inside the canvas all the components should be covered in the mesh / <group> which includes multiple mesh
+
+basics of adding the bird and the plane 3D model without animations and later will animate
+
+    import { useGLTF } from '@react-three/drei'
+    import birdScene from '../assets/3d/bird.glb'
+
+    const { scene, animations } = useGLTF(birdScene)
+
+    <mesh position={[-5, 2, 1]} scale={[0.003, 0.003, 0.003]}>
+        <primitive object={ scene  } />
+    </mesh>
+
+based on the logic we added the animations for the plane bird sky and island
+
+
+next we are heading towards the contact us page with the 3d Model of the fox
+
+initially we picked the fox model from the sketchfab 
+then we visited the site and coverted it to JSX code
+
+we have to import the scene form the GLB then pass that scene as the parameter in useGLTF
+
+
+
