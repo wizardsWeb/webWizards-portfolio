@@ -1,41 +1,59 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
     html,
     javascript,
-    linkedin,
     mongodb,
     motion,
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    linkedin,
+    mysql,
+    socketio,
+    innovation,
+    city,
+    blog,
+    chat,
+    auth,
+    brain,
+    dashboard,
+    chats
+    
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -48,14 +66,14 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
         imageUrl: mongodb,
@@ -78,90 +96,77 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: mysql,
+        name: "Mysql",
+        type: "Database",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: socketio,
+        name: "Real time",
+        type: "Real time",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
+
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "IndiaSkills Competition 2023-24",
+        company_name: "IndiaSkills Competition",
+        icon: innovation, // Replace with the appropriate icon
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "2023-2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+           "Secured 2st rank in the IndiaSkills competition 2023-24 for IT Software Solutions for Business in Maharashtra! 🥇",
+            "Competed against incredibly talented individuals and emerged victorious.",
+            "Highlighted the importance of dedication, hard work, persistence, and passion in pursuing one's dreams.",
+            "Looking forward to pushing the boundaries of innovation and excellence in IT Software Solutions.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Technothon 2024",
+        company_name: "Technothon",
+        icon: innovation, // Replace with the appropriate icon
+        iconBg: "#accbe1",
+        date: "May 2024 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Overview: Participated in a competitive 24-hour hackathon focused on innovative problem-solving using technology.",
+            "Project: Developed a MERN stack application for a unified repository that streamlines data management and accessibility.",
+            "Technologies Used: MongoDB, Express.js, React.js, Node.js, JavaScript, Git.",
+            "Outcome: Successfully delivered a functional prototype that received positive feedback for its user-friendly interface and efficient data handling. This project enhanced my collaboration skills and reinforced my ability to work under tight deadlines.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Dipex 2024",
+        company_name: "Dipex",
+        icon: innovation, // Replace with the appropriate icon
+        iconBg: "#accbe1",
+        date: "May 2024 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Overview: Engaged in a prestigious 4-day state-level project competition, collaborating with peers to develop a comprehensive educational solution.",
+            "Project: Created an e-learning platform where users can interact with video lectures and take quizzes to reinforce their learning.",
+            "Features: Integrated user-friendly navigation, real-time feedback on quizzes, and interactive video content.",
+            "Presentation: Successfully showcased the project to a panel of mentors and industry experts, demonstrating its features and functionalities. Received valuable insights and constructive feedback, which helped refine our approach and presentation skills.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Technothon 2023",
+        company_name: "Technothon",
+        icon: innovation,
+        iconBg: "#accbe1",
+        date: "May 2023 - May 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Overview: Participated in another intense 24-hour hackathon dedicated to addressing real-world challenges through technology.",
+            "Project: Developed a MERN stack application focused on traffic statistics. The project included the generation of detailed reports and graphical representations of traffic data based on specific problem statements.",
+            "Technologies Used: MongoDB, Express.js, React.js, Node.js, Chart.js, Git.",
+            "Outcome: Delivered a well-received project that highlighted the importance of data visualization in urban planning. This experience enhanced my skills in data analysis and presentation, as well as my ability to collaborate effectively in a fast-paced environment.",
         ],
     },
+    
 ];
 
 export const socialLinks = [
@@ -173,7 +178,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/wizardsWeb',
     },
     {
         name: 'LinkedIn',
@@ -184,45 +189,45 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        iconUrl: city,
+        theme: "btn-back-red",
+        name: "Smart-City UI",
+        description: "Built an amazing UI for the Smart City using React-Three-Fiber, React, Firebase, and Framer Motion. This project features a 3D smart city model and includes various functionalities related to the community.",
+        link: "https://github.com/wizardsWeb/3D-smart-city-hackathon", // Add your GitHub link or project link here
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: blog,
+        theme: "btn-back-green",
+        name: "MERN Blog",
+        description: "Developed a full-stack blog website using the MERN stack (MongoDB, Express, React, Node.js). Implemented CRUD operations to enable users to create, read, update, and delete blog posts, as well as customize their profiles.",
+        link: "https://github.com/wizardsWeb/mern-blog", // Add your GitHub link or project link here
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        iconUrl: chats,
+        theme: "btn-back-blue",
+        name: "Real-time Estate Chat App",
+        description: "Built a project on the MERN stack, Tailwind CSS, Socket.IO, and Zustand, allowing users to search for places, save their favorites, and engage in real-time chat.",
+        link: "https://github.com/wizardsWeb/projRepo", // Add your GitHub link or project link here
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        iconUrl: auth,
+        theme: "btn-back-pink",
+        name: "Auth Project",
+        description: "Designed and implemented a MERN stack authentication app, featuring secure user authentication, email verification, and password recovery through email, ensuring robust security measures.",
+        link: "https://github.com/wizardsWeb/mern-advance-auth", // Add your GitHub link or project link here
     },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        iconUrl: brain,
+        theme: "btn-back-yellow",
+        name: "BrainWave",
+        description: "Developed a modern, animated website using React JS for the frontend, featuring smooth and engaging animations to enhance user experience.",
+        link: "https://github.com/wizardsWeb/brainwave-animated", // Add your GitHub link or project link here
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        iconUrl: dashboard,
+        theme: "btn-back-black",
+        name: "Admin Dashboard",
+        description: "Built an admin dashboard using React JS and the Syncfusion library, integrating dynamic charts, components, and temporary CRUD functionality for streamlined data management.",
+        link: "https://github.com/wizardsWeb/react-sync-dashboard", // Add your GitHub link or project link here
+    },
 ];

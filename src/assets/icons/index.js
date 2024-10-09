@@ -26,8 +26,19 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import mysql from './mysql.svg';
+import socketio from './socketio.svg';
+import innovation from './innovation.png';
+import city from './city.svg';
+import blog from './blog.svg'
+import chat from './chat.svg';
+import auth from './auth.svg';
+import brain from './brain.svg';
+import dashboard from './dashboard.svg'
+import chats from './chats.svg';
 
 export {
+    innovation,
     css,
     express,
     git,
@@ -55,5 +66,14 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    mysql,
+    socketio,
+    city, 
+    blog,
+    chat,
+    auth,
+    brain,
+    dashboard,
+    chats
 }
