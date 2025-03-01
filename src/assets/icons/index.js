@@ -36,6 +36,18 @@ import auth from './auth.svg';
 import brain from './brain.svg';
 import dashboard from './dashboard.svg'
 import chats from './chats.svg';
+import vercel from './vercel.svg';
+import python from './python.svg';
+import postgresql from './postgresql.svg';
+import openai from './openai.svg'
+import langchain from './langchain.svg'
+import java from './java.svg'
+import hugging from './hugging.svg'
+import groq from './groq.svg'
+import figma from './figma.svg'
+import cplus from './cplus.svg'
+
+
 
 export {
     innovation,
@@ -75,5 +87,15 @@ export {
     auth,
     brain,
     dashboard,
-    chats
+    chats,
+    vercel,
+python,
+postgresql,
+openai,
+langchain,
+java,
+hugging,
+groq,
+figma,
+cplus
 }

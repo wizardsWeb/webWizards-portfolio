@@ -1,4 +1,3 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     contact,
     css,
@@ -9,11 +8,9 @@ import {
     javascript,
     mongodb,
     motion,
-    mui,
     nextjs,
     nodejs,
     react,
-    redux,
     tailwindcss,
     linkedin,
     mysql,
@@ -21,213 +18,294 @@ import {
     innovation,
     city,
     blog,
-    chat,
-    auth,
-    brain,
-    dashboard,
-    chats
+    chats,
+    // You might need to import these new icons
+    typescript,
+    python,
+    cplus,
+    java,
+    postgresql,
+    openai,
+    langchain,
+    hugging,
+    groq,
+    vercel,
+    figma,
+
+  } from "../assets/icons"
+  
+  export const skills = [
+    {
+      imageUrl: html,
+      name: "HTML",
+      type: "Frontend",
+    },
+    {
+      imageUrl: css,
+      name: "CSS",
+      type: "Frontend",
+    },
+    {
+      imageUrl: tailwindcss,
+      name: "Tailwind CSS",
+      type: "Frontend",
+    },
+    {
+      imageUrl: javascript,
+      name: "JavaScript",
+      type: "Frontend",
+    },
+    {
+      imageUrl: typescript,
+      name: "TypeScript",
+      type: "Frontend",
+    },
+    {
+      imageUrl: react,
+      name: "React",
+      type: "Frontend",
+    },
+    {
+      imageUrl: nextjs,
+      name: "Next.js",
+      type: "Frontend",
+    },
     
-} from "../assets/icons";
-
-export const skills = [
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+      imageUrl: motion,
+      name: "Framer Motion",
+      type: "Animation",
     },
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
+      imageUrl: nodejs,
+      name: "Node.js",
+      type: "Backend",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+      imageUrl: express,
+      name: "Express",
+      type: "Backend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
+      imageUrl: python,
+      name: "Python",
+      type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
+      imageUrl: java,
+      name: "Java",
+      type: "Backend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
+      imageUrl: cplus,
+      name: "C/C++",
+      type: "Backend",
     },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: mysql,
-        name: "Mysql",
-        type: "Database",
-    },
-    {
-        imageUrl: socketio,
-        name: "Real time",
-        type: "Real time",
-    },
-];
-
-export const experiences = [
 
     {
-        title: "IndiaSkills Competition 2023-24",
-        company_name: "IndiaSkills Competition",
-        icon: innovation, // Replace with the appropriate icon
-        iconBg: "#accbe1",
-        date: "2023-2024",
-        points: [
-           "Secured 2st rank in the IndiaSkills competition 2023-24 for IT Software Solutions for Business in Maharashtra! 🥇",
-            "Competed against incredibly talented individuals and emerged victorious.",
-            "Highlighted the importance of dedication, hard work, persistence, and passion in pursuing one's dreams.",
-            "Looking forward to pushing the boundaries of innovation and excellence in IT Software Solutions.",
-        ],
+      imageUrl: mongodb,
+      name: "MongoDB",
+      type: "Database",
     },
     {
-        title: "Technothon 2024",
-        company_name: "Technothon",
-        icon: innovation, // Replace with the appropriate icon
-        iconBg: "#accbe1",
-        date: "May 2024 - May 2024",
-        points: [
-            "Overview: Participated in a competitive 24-hour hackathon focused on innovative problem-solving using technology.",
-            "Project: Developed a MERN stack application for a unified repository that streamlines data management and accessibility.",
-            "Technologies Used: MongoDB, Express.js, React.js, Node.js, JavaScript, Git.",
-            "Outcome: Successfully delivered a functional prototype that received positive feedback for its user-friendly interface and efficient data handling. This project enhanced my collaboration skills and reinforced my ability to work under tight deadlines.",
-        ],
+      imageUrl: mysql,
+      name: "MySQL",
+      type: "Database",
     },
     {
-        title: "Dipex 2024",
-        company_name: "Dipex",
-        icon: innovation, // Replace with the appropriate icon
-        iconBg: "#accbe1",
-        date: "May 2024 - May 2024",
-        points: [
-            "Overview: Engaged in a prestigious 4-day state-level project competition, collaborating with peers to develop a comprehensive educational solution.",
-            "Project: Created an e-learning platform where users can interact with video lectures and take quizzes to reinforce their learning.",
-            "Features: Integrated user-friendly navigation, real-time feedback on quizzes, and interactive video content.",
-            "Presentation: Successfully showcased the project to a panel of mentors and industry experts, demonstrating its features and functionalities. Received valuable insights and constructive feedback, which helped refine our approach and presentation skills.",
-        ],
+      imageUrl: postgresql,
+      name: "PostgreSQL",
+      type: "Database",
     },
     {
-        title: "Technothon 2023",
-        company_name: "Technothon",
+      imageUrl: openai,
+      name: "OpenAI",
+      type: "AI",
+    },
+    {
+      imageUrl: langchain,
+      name: "LangChain",
+      type: "AI",
+    },
+    {
+      imageUrl: hugging,
+      name: "Hugging Face",
+      type: "AI",
+    },
+    {
+      imageUrl: groq,
+      name: "Groq",
+      type: "AI",
+    },
+    {
+      imageUrl: vercel,
+      name: "Vercel AI SDK",
+      type: "AI",
+    },
+    {
+      imageUrl: git,
+      name: "Git",
+      type: "Version Control",
+    },
+    {
+      imageUrl: github,
+      name: "GitHub",
+      type: "Version Control",
+    },
+    
+    {
+      imageUrl: figma,
+      name: "Figma",
+      type: "Design",
+    },
+    
+    {
+      imageUrl: socketio,
+      name: "Socket.IO",
+      type: "Real-time",
+    },
+  ]
+  
+  export const experiences = [
+    {
+        title: "Summer Intern",
+        company_name: "K. J. Somaiya, Mumbai",
         icon: innovation,
         iconBg: "#accbe1",
-        date: "May 2023 - May 2023",
+        date: "June 2023 - July 2023",
         points: [
-            "Overview: Participated in another intense 24-hour hackathon dedicated to addressing real-world challenges through technology.",
-            "Project: Developed a MERN stack application focused on traffic statistics. The project included the generation of detailed reports and graphical representations of traffic data based on specific problem statements.",
-            "Technologies Used: MongoDB, Express.js, React.js, Node.js, Chart.js, Git.",
-            "Outcome: Delivered a well-received project that highlighted the importance of data visualization in urban planning. This experience enhanced my skills in data analysis and presentation, as well as my ability to collaborate effectively in a fast-paced environment.",
+          "Spearheaded OS booting and software deployment, efficiently setting up and reinstalling 50+ systems.",
+          "Optimized lab network configurations and troubleshooting, improving overall network reliability by 30% and minimizing downtime.",
+          "Led PC assembly and hardware maintenance, enhancing system performance and ensuring 100% uptime across lab workstations.",
+          "Gained hands-on experience in IT infrastructure management and system administration.",
         ],
+      },
+    {
+      title: "Winner - BrainRot International Hackathon",
+      company_name: "Hustl.AI",
+      icon: openai, // Replace with appropriate AI icon
+      iconBg: "#E6DEDD",
+      date: "2024",
+      points: [
+        "Developed Hustl.AI, an AI-driven platform connecting job seekers with recruiters.",
+        "Enhanced candidate pathway alignment by 90% and reduced recruiter screening time by 50%.",
+        "Improved 80% accuracy in interview preparedness through AI-powered simulations.",
+        "Integrated GitHub and Google Careers to provide comprehensive candidate evaluation.",
+        "Outperformed 1,200+ participants and 250+ teams to secure first place.",
+      ],
     },
-    
-];
+    {
+      title: "Winner - National Hackathon",
+      company_name: "BITS Pilani (Goa)",
+      icon: innovation,
+      iconBg: "#accbe1",
+      date: "2024",
+      points: [
+        "Secured 1st place in the AI category at the prestigious BITS Pilani National Hackathon.",
+        "Triumphed after multiple competitive rounds against top teams from across the country.",
+        "Received a 50,000 cash prize for the innovative AI solution.",
+        "Demonstrated exceptional problem-solving skills and technical expertise in AI development.",
+      ],
+    },
+    {
+      title: "Winner - Cyberstrike '25",
+      company_name: "InnoHacks and Dot Dot Com",
+      icon: openai,
+      iconBg: "#E6DEDD",
+      date: "2023",
+      points: [
+        "Developed 'Why Mental Health Matters', an AI-powered app for personalized emotional support.",
+        "Created gamified wellness activities to address depression and redefine mental health solutions.",
+        "Implemented multimodal AI for sentiment analysis and generative AI soundscapes.",
+        "Featured 90% accurate emotion detection, real-time wearable tracking, and AR environments reducing stress by 30%.",
+        "Integrated proactive crisis support systems for comprehensive mental health care.",
+      ],
+    },
+    {
+      title: "Runner-up - Pixel Paranoia UI/UX Hackathon",
+      company_name: "Pixel Paranoia",
+      icon: inno,
+      iconBg: "#accbe1",
+      date: "2023",
+      points: [
+        "Competed against 50+ teams in a challenging UI/UX design hackathon.",
+        "Built a UI product focused on raising awareness about harmful food ingredients.",
+        "Designed an intuitive interface that effectively communicated complex nutritional information.",
+        "Received recognition for innovative approach to addressing food safety concerns.",
+      ],
+    },
+   
 
-export const socialLinks = [
+  ]
+  
+  export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
+      name: "Contact",
+      iconUrl: contact,
+      link: "/contact",
     },
     {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/wizardsWeb',
+      name: "GitHub",
+      iconUrl: github,
+      link: "https://github.com/wizardsWeb",
     },
     {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
-];
-
-export const projects = [
+      name: "LinkedIn",
+      iconUrl: linkedin,
+      link: "https://www.linkedin.com/in/vinay-vora-1a6531255/",
+    },
+  ]
+  
+  export const projects = [
     {
-        iconUrl: city,
-        theme: "btn-back-red",
-        name: "Smart-City UI",
-        description: "Built an amazing UI for the Smart City using React-Three-Fiber, React, Firebase, and Framer Motion. This project features a 3D smart city model and includes various functionalities related to the community.",
-        link: "https://github.com/wizardsWeb/3D-smart-city-hackathon", // Add your GitHub link or project link here
+      iconUrl: ai,
+      theme: "btn-back-blue",
+      name: "AI-Powered Financial Intelligence Platform",
+      description:
+        "Multi-Agent AI system leveraging LangGraph for real-time financial insights, fraud detection, and market analysis. Features technical analysis, financial reporting, market research, fraud detection, and future simulation with WhatsApp integration via Twilio.",
+      link: "https://github.com/wizardsWeb/datathon-2025",
     },
     {
-        iconUrl: blog,
-        theme: "btn-back-green",
-        name: "MERN Blog",
-        description: "Developed a full-stack blog website using the MERN stack (MongoDB, Express, React, Node.js). Implemented CRUD operations to enable users to create, read, update, and delete blog posts, as well as customize their profiles.",
-        link: "https://github.com/wizardsWeb/mern-blog", // Add your GitHub link or project link here
+      iconUrl: brain,
+      theme: "btn-back-purple",
+      name: "Edify AI",
+      description:
+        "Revolutionary education platform combining AI and AR for immersive learning. Features personalized career roadmaps, AR-powered virtual classrooms, AI video summarization, and intelligent mock interviews with 85% accuracy in sentiment analysis.",
+      link: "https://github.com/wizardsWeb/gen-ed",
     },
     {
-        iconUrl: chats,
-        theme: "btn-back-blue",
-        name: "Real-time Estate Chat App",
-        description: "Built a project on the MERN stack, Tailwind CSS, Socket.IO, and Zustand, allowing users to search for places, save their favorites, and engage in real-time chat.",
-        link: "https://github.com/wizardsWeb/projRepo", // Add your GitHub link or project link here
+      iconUrl: dashboard,
+      theme: "btn-back-yellow",
+      name: "ZapFlow",
+      description:
+        "SaaS Automation Builder with drag-and-drop interface for creating workflow automations. Integrates with Google Drive, Slack, Discord, and Notion, featuring multi-agent AI assistant, multilingual support, and real-time meeting analysis.",
+      link: "https://github.com/wizardsWeb/Commando-AI",
     },
     {
-        iconUrl: auth,
-        theme: "btn-back-pink",
-        name: "Auth Project",
-        description: "Designed and implemented a MERN stack authentication app, featuring secure user authentication, email verification, and password recovery through email, ensuring robust security measures.",
-        link: "https://github.com/wizardsWeb/mern-advance-auth", // Add your GitHub link or project link here
+      iconUrl: ai,
+      theme: "btn-back-blue",
+      name: "Hustl.AI",
+      description:
+        "AI-driven platform connecting job seekers with recruiters, enhancing candidate pathway alignment by 90% and reducing recruiter screening time by 50%. Integrated GitHub and Google Careers for comprehensive candidate evaluation.",
+      link: "https://github.com/wizardsWeb/job-portal",
     },
     {
-        iconUrl: brain,
-        theme: "btn-back-yellow",
-        name: "BrainWave",
-        description: "Developed a modern, animated website using React JS for the frontend, featuring smooth and engaging animations to enhance user experience.",
-        link: "https://github.com/wizardsWeb/brainwave-animated", // Add your GitHub link or project link here
+      iconUrl: ai,
+      theme: "btn-back-purple",
+      name: "ZenithAI",
+      description:
+        "AI-powered app offering personalized emotional support and gamified wellness, addressing depression with 90% accurate emotion detection, real-time wearable tracking, and AR environments reducing stress by 30%.",
+      link: "https://github.com/wizardsWeb/ZenithAI",
     },
     {
-        iconUrl: dashboard,
-        theme: "btn-back-black",
-        name: "Admin Dashboard",
-        description: "Built an admin dashboard using React JS and the Syncfusion library, integrating dynamic charts, components, and temporary CRUD functionality for streamlined data management.",
-        link: "https://github.com/wizardsWeb/react-sync-dashboard", // Add your GitHub link or project link here
+      iconUrl: ai,
+      theme: "btn-back-green",
+      name: "Zyra AI",
+      description:
+        "Virtual meeting tool improving efficiency by 50%, featuring AI-powered workflow optimization and intuitive collaboration interfaces. Placed in top 5 at VJTI Hack Aurora 2024.",
+      link: "https://github.com/wizardsWeb/Zyra",
     },
-];
+  ]
+  
+  
+  
