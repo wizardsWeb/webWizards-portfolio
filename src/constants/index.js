@@ -224,7 +224,7 @@ import {
     {
       title: "Runner-up - Pixel Paranoia UI/UX Hackathon",
       company_name: "Pixel Paranoia",
-      icon: inno,
+      icon: innovation,
       iconBg: "#accbe1",
       date: "2023",
       points: [
@@ -258,7 +258,7 @@ import {
   
   export const projects = [
     {
-      iconUrl: ai,
+      iconUrl: openai,
       theme: "btn-back-blue",
       name: "AI-Powered Financial Intelligence Platform",
       description:
@@ -266,7 +266,7 @@ import {
       link: "https://github.com/wizardsWeb/datathon-2025",
     },
     {
-      iconUrl: brain,
+      iconUrl: innovation,
       theme: "btn-back-purple",
       name: "Edify AI",
       description:
@@ -274,7 +274,7 @@ import {
       link: "https://github.com/wizardsWeb/gen-ed",
     },
     {
-      iconUrl: dashboard,
+      iconUrl: openai,
       theme: "btn-back-yellow",
       name: "ZapFlow",
       description:
@@ -282,7 +282,7 @@ import {
       link: "https://github.com/wizardsWeb/Commando-AI",
     },
     {
-      iconUrl: ai,
+      iconUrl: innovation,
       theme: "btn-back-blue",
       name: "Hustl.AI",
       description:
@@ -290,7 +290,7 @@ import {
       link: "https://github.com/wizardsWeb/job-portal",
     },
     {
-      iconUrl: ai,
+      iconUrl: openai,
       theme: "btn-back-purple",
       name: "ZenithAI",
       description:
@@ -298,7 +298,7 @@ import {
       link: "https://github.com/wizardsWeb/ZenithAI",
     },
     {
-      iconUrl: ai,
+      iconUrl: innovation,
       theme: "btn-back-green",
       name: "Zyra AI",
       description:
