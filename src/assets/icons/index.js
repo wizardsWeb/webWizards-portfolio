@@ -46,10 +46,17 @@ import hugging from './hugging.svg'
 import groq from './groq.svg'
 import figma from './figma.svg'
 import cplus from './cplus.svg'
-
+import flask from './Flask.svg';
+import dj from './Django.svg';
+import prisma from './prisma.svg';
+import pinecone from './pinecone.svg';
 
 
 export {
+    flask,
+    dj,
+    prisma,
+    pinecone,
     innovation,
     css,
     express,

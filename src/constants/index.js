@@ -31,6 +31,10 @@ import {
     groq,
     vercel,
     figma,
+    flask,
+    dj,
+    prisma,
+    pinecone,
 
   } from "../assets/icons"
   
@@ -89,6 +93,26 @@ import {
     {
       imageUrl: python,
       name: "Python",
+      type: "Backend",
+    },
+    {
+      imageUrl: flask,
+      name: "Flask",
+      type: "Backend",
+    },
+    {
+      imageUrl: dj,
+      name: "Django",
+      type: "Backend",
+    },
+    {
+      imageUrl: prisma,
+      name: "Prisma",
+      type: "Backend",
+    },
+    {
+      imageUrl: pinecone,
+      name: "Pinecone",
       type: "Backend",
     },
     {
@@ -168,6 +192,18 @@ import {
   
   export const experiences = [
     {
+    title: "Freelance Developer",
+    company_name: "Remote",
+    icon: innovation,
+    iconBg: "#F6E05E",
+    date: "Nov 2024 – Dec 2024",
+    points: [
+      "Developed an AI-driven web app to enhance user engagement and SEO performance.",
+      "Optimized performance by improving load speed by 50% using Next.js.",
+      "Delivered clean, production-ready UI/UX and real-time features.",
+    ],
+    },
+    {
         title: "Summer Intern",
         company_name: "K. J. Somaiya, Mumbai",
         icon: innovation,
@@ -180,12 +216,24 @@ import {
           "Gained hands-on experience in IT infrastructure management and system administration.",
         ],
       },
+      {
+    title: "Winner - IIT Delhi Hackathon",
+    company_name: "IIT Delhi",
+    icon: innovation,
+    iconBg: "#FF9F1C",
+    date: "March 2025",
+    points: [
+      "Won 50,000 prize for CommandoAI, an enterprise workflow optimization platform.",
+      "Boosted team productivity by 70% and reduced manual operations by 60%.",
+      "Implemented 5+ AI agents across 10+ platforms including multilingual meeting assistant.",
+    ],
+  },
     {
       title: "Winner - BrainRot International Hackathon",
       company_name: "Hustl.AI",
       icon: openai, // Replace with appropriate AI icon
       iconBg: "#E6DEDD",
-      date: "2024",
+      date: "January 2025",
       points: [
         "Developed Hustl.AI, an AI-driven platform connecting job seekers with recruiters.",
         "Enhanced candidate pathway alignment by 90% and reduced recruiter screening time by 50%.",
@@ -199,7 +247,7 @@ import {
       company_name: "BITS Pilani (Goa)",
       icon: innovation,
       iconBg: "#accbe1",
-      date: "2024",
+      date: "Feburary 2025",
       points: [
         "Secured 1st place in the AI category at the prestigious BITS Pilani National Hackathon.",
         "Triumphed after multiple competitive rounds against top teams from across the country.",
@@ -212,7 +260,7 @@ import {
       company_name: "InnoHacks and Dot Dot Com",
       icon: openai,
       iconBg: "#E6DEDD",
-      date: "2023",
+      date: "December 2024",
       points: [
         "Developed 'Why Mental Health Matters', an AI-powered app for personalized emotional support.",
         "Created gamified wellness activities to address depression and redefine mental health solutions.",
